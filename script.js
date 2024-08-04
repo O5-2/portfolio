@@ -37,6 +37,3 @@ for (i of HACKERRANK_NAMES) {
     hr.appendChild(p);
     p.appendChild(link);
 }
-
-// TODO: Leetcode and Hackerrank.
-// Remaining thing to do: Collect the file names for HackerRank.
