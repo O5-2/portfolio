@@ -31,7 +31,7 @@ for (i of LEETCODE_NAMES) {
 hr = document.getElementById("hr");
 for (i of HACKERRANK_NAMES) {
     let link = document.createElement("a");
-    link.setAttribute("href", "https://github.com/O5-2/hacker-rank/blob/master/" + i);
+    link.setAttribute("href", "https://github.com/O5-2/hackerrank/blob/master/" + i);
     link.textContent = linkifyHR(i);
     let p = document.createElement("p");
     hr.appendChild(p);
